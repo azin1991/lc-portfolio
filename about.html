@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>About · Leah Chan</title>
+  <meta name="description"
+    content="About Leah Chan, a systems and hardware maker exploring precision electronics, mechanical ergonomics, and calm ambient software.">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Plus+Jakarta+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="tailwind-config.js"></script>
+  <script src="site.js" defer></script>
+</head>
+
+<body
+  class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary-fixed selection:text-on-primary-fixed">
+  <header class="fixed top-0 w-full z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.03)]">
+    <div class="h-16 max-w-[1360px] mx-auto px-margin-mobile md:px-margin flex items-center justify-between gap-space-md">
+      <a class="font-headline-sm text-headline-sm font-bold tracking-tight text-on-surface hover:text-primary transition-colors whitespace-nowrap"
+        href="index.html">Leah Chan<span class="text-primary">.</span></a>
+      <nav class="hidden md:flex items-center justify-center gap-space-lg flex-1">
+        <a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-on-surface transition-colors py-1"
+          href="index.html">Home</a>
+        <a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-on-surface transition-colors py-1"
+          href="projects.html">Work &amp; Ideas</a>
+        <a aria-current="page" class="font-label-caps text-label-caps uppercase text-primary font-semibold py-1"
+          href="about.html">About</a>
+      </nav>
+      <div class="flex items-center gap-space-md">
+        <a class="font-code-sm text-code-sm px-3 py-1.5 rounded-lg bg-surface-container hover:bg-primary-fixed hover:text-on-primary-fixed text-on-surface transition-colors"
+          href="#contact">Contact</a>
+        <img alt="Leah Chan" class="w-8 h-8 rounded-full object-cover" src="images/profile.jpg">
+        <button aria-controls="mobile-menu" aria-expanded="false" aria-label="Menu"
+          class="md:hidden w-9 h-9 -mr-2 flex items-center justify-center rounded-lg text-on-surface hover:bg-surface-container transition-colors"
+          id="menu-button" type="button"><span class="material-symbols-outlined">menu</span></button>
+      </div>
+    </div>
+    <nav class="hidden md:hidden border-t border-outline-variant/30 px-margin-mobile py-space-sm" id="mobile-menu">
+      <a class="block py-3 font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-on-surface"
+        href="index.html">Home</a>
+      <a class="block py-3 font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-on-surface"
+        href="projects.html">Work &amp; Ideas</a>
+      <a aria-current="page" class="block py-3 font-label-caps text-label-caps uppercase text-primary font-semibold"
+        href="about.html">About</a>
+    </nav>
+  </header>
+  <main class="w-full pt-16 bg-surface min-h-[calc(100vh-140px)]">
+    <div class="flex flex-col w-full">
+      <!-- Subtle decorative blush ambiance behind the hero section ("isolate" keeps the -z-10 glows visible) -->
+      <div class="relative isolate w-full overflow-hidden">
+        <div
+          class="absolute -top-32 right-12 w-96 h-96 rounded-full bg-primary-fixed/30 blur-3xl pointer-events-none -z-10">
+        </div>
+        <div
+          class="absolute top-80 -left-20 w-80 h-80 rounded-full bg-secondary-fixed/40 blur-3xl pointer-events-none -z-10">
+        </div>
+        <!-- Editorial Canvas Container -->
+        <div class="max-w-[1360px] mx-auto px-margin-mobile md:px-margin pt-space-xl pb-space-3xl">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start py-8">
+            <div class="lg:col-span-5 flex flex-col gap-4">
+              <div
+                class="relative rounded-2xl overflow-hidden shadow-sm border border-outline-variant/30 bg-surface-container">
+                <img alt="Leah Chan sketching in a notebook at a desk"
+                  class="w-full aspect-[4/5] object-cover hover:scale-[1.01] transition-transform duration-500 ease-out"
+                  src="images/profile.jpg">
+                <div
+                  class="absolute bottom-3 left-3 right-3 px-3 py-2 rounded-xl bg-surface/80 backdrop-blur-md border border-outline-variant/30 flex items-center justify-between">
+                  <span class="font-code-sm text-xs text-on-surface-variant flex items-center gap-1.5"><span
+                      class="w-2 h-2 rounded-full bg-primary"></span>Hardware &amp; Systems Studio</span><span
+                    class="font-code-sm text-xs text-on-surface-variant/80">2025</span></div>
+              </div>
+            </div>
+            <div class="lg:col-span-7 flex flex-col justify-center space-y-8 pt-2 lg:pt-6">
+              <div class="space-y-3">
+                <h1
+                  class="text-4xl md:text-5xl font-bold font-headline-lg text-on-surface tracking-tight leading-tight">
+                  About me</h1>
+              </div>
+              <div class="space-y-5 text-on-surface-variant text-base md:text-lg leading-relaxed">
+                <p>I am LC, a systems and hardware engineer exploring the intersection of precision
+                  electronics, mechanical ergonomics, and calm ambient software. My practice centers on crafting tools
+                  that feel natural in hand and intentional in operation.</p>
+                <p>Currently focused on custom embedded controller architectures, low-power telemetry, and
+                  physical interfaces that prioritize tactile feedback over screen-heavy distractions.</p>
+              </div>
+              <!-- Contact block: the header "Contact" links land here (scroll-mt clears the fixed header) -->
+              <div
+                class="pt-4 border-t border-outline-variant/30 flex flex-col sm:flex-row sm:items-center gap-4 justify-between scroll-mt-24"
+                id="contact">
+                <div class="flex flex-col gap-1"><span
+                    class="font-label-caps text-xs text-on-surface-variant uppercase tracking-wider">Direct
+                    Inquiries</span><a href="mailto:hello@lc-studio.dev"
+                    class="group inline-flex items-center gap-2 text-primary font-code-sm text-base md:text-lg font-medium hover:underline transition-all"><span
+                      class="material-symbols-outlined text-xl text-primary">mail</span><span>hello@lc-studio.dev</span><span
+                      class="material-symbols-outlined text-sm opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all">arrow_forward</span></a>
+                </div>
+                <div class="flex items-center gap-3"><a href="mailto:hello@lc-studio.dev"
+                    class="px-5 py-2.5 rounded-xl bg-primary text-on-primary font-medium text-sm flex items-center gap-2 hover:bg-primary-container transition-colors shadow-sm"><span
+                      class="material-symbols-outlined text-base">send</span><span>Get in Touch</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="w-full bg-surface-container-low">
+    <div
+      class="max-w-[1360px] mx-auto px-margin-mobile md:px-margin py-space-xl flex flex-col md:flex-row items-center justify-between gap-space-md">
+      <div class="flex flex-col sm:flex-row items-center gap-space-sm sm:gap-space-md text-center sm:text-left"><span
+          class="font-body-sm text-body-sm text-on-surface-variant">LC © 2025 • Aspiring Systems &amp; Hardware
+          Engineer</span><span class="hidden sm:inline text-outline-variant">•</span><span
+          class="font-code-sm text-code-sm text-on-surface-variant flex items-center gap-1.5"><span
+            class="w-1.5 h-1.5 rounded-full bg-tertiary-container"></span>UTC-5 (EST)</span></div>
+      <div class="flex items-center gap-space-lg"><a
+          class="font-code-sm text-code-sm text-on-surface-variant hover:text-primary transition-colors"
+          href="https://github.com" rel="noopener noreferrer" target="_blank">GitHub</a><a
+          class="font-code-sm text-code-sm text-on-surface-variant hover:text-primary transition-colors"
+          href="https://linkedin.com" rel="noopener noreferrer" target="_blank">LinkedIn</a><a
+          class="font-code-sm text-code-sm text-on-surface-variant hover:text-primary transition-colors"
+          href="https://read.cv" rel="noopener noreferrer" target="_blank">ReadCV</a></div>
+    </div>
+  </footer>
+</body>
+
+</html>
