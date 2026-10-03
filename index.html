@@ -54,10 +54,8 @@
   </header>
   <main class="w-full pt-16 bg-surface min-h-[calc(100vh-140px)]">
     <div class="flex flex-col w-full">
-      <!-- Hero: "isolate" keeps the ambient glows (-z-10) visible above the page background -->
       <div
         class="relative isolate w-full max-w-[1360px] mx-auto px-margin-mobile md:px-margin pt-space-xl pb-space-3xl overflow-hidden">
-        <!-- Ambient aesthetic aura nodes -->
         <div
           class="absolute top-12 right-1/4 w-96 h-96 rounded-full bg-primary-fixed/25 blur-3xl -z-10 pointer-events-none">
         </div>
@@ -72,7 +70,7 @@
             <div class="flex flex-col gap-space-sm">
               <h1
                 class="font-display-hero text-headline-lg-mobile md:text-display-hero text-on-surface font-bold tracking-tight">
-                Leah Chan.</h1>
+                Leah Chan<span class="text-primary">.</span></h1>
               <p class="font-body-lg text-body-lg text-on-surface-variant max-w-3xl leading-relaxed">This is my portfolio:
                 a collection of the projects and ideas I've built, from handmade electronics to apps and
                 illustration.</p>
@@ -94,7 +92,7 @@
           </div>
         </div>
       </div>
-      <!-- SECTION 2: Selected Works & Explorations -->
+      <!-- Section 2: Selected Works & Explorations -->
       <section class="w-full bg-surface-container-lowest py-space-3xl relative shadow-sm scroll-mt-16"
         id="selected-work">
         <div class="max-w-[1360px] mx-auto px-margin-mobile md:px-margin flex flex-col gap-space-2xl">
@@ -109,7 +107,7 @@
                 Ideas</h2>
             </div>
           </div>
-          <!-- PRIMARY FEATURED CARD (Soundbox 01) -->
+          <!-- Primary Featured Card -->
           <div
             class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg p-space-lg md:p-space-xl rounded-xl bg-surface-container-low shadow-sm transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
             <div class="lg:col-span-7 flex flex-col gap-space-md">
@@ -125,7 +123,7 @@
                 </div>
               </div>
             </div>
-            <!-- Narrative & Engineering Specs -->
+            <!-- Specs -->
             <div class="lg:col-span-5 flex flex-col justify-between gap-space-lg">
               <div class="flex flex-col gap-space-md">
                 <div class="flex items-center gap-2"><span
@@ -139,8 +137,6 @@
                     monograph inside a precision-milled walnut enclosure with embedded acoustic chamber.</p>
                 </div>
                 <div class="flex flex-wrap items-center gap-space-xs pt-space-xs"><span
-                    class="px-3 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-code-sm text-code-sm">Custom
-                    PCB</span><span
                     class="px-3 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-code-sm text-code-sm">Acoustics</span>
                 </div>
               </div>
@@ -163,48 +159,30 @@
 </div>
             </div>
           </div>
-          <!-- SECONDARY PROJECT GRID (3-Column Minimalist Cards) -->
+          <!-- Secondary Project Grid -->
           <div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
             <div
               class="flex flex-col justify-between p-space-lg rounded-xl bg-surface-container-low shadow-sm transition-all duration-200 hover:shadow-xl hover:-translate-y-1 group">
               <div class="flex flex-col gap-space-md">
-                <div
-                  class="relative w-full h-48 rounded-lg overflow-hidden bg-surface-container flex items-center justify-center">
-                  <div class="w-12 h-12 rounded-full bg-primary-fixed/40 flex items-center justify-center text-primary">
-                    <span class="material-symbols-outlined text-[24px]">scoreboard</span></div>
-                  <div
-                    class="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur font-code-sm text-code-sm text-on-surface">
-                    02 // APP</div>
-                </div>
                 <div class="flex flex-col gap-space-xs">
                   <div class="flex items-center gap-2"><span
                       class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-code-sm text-code-sm">iOS
                       / Swift</span></div>
                   <h3
                     class="font-headline-md text-headline-md text-on-surface font-semibold group-hover:text-primary transition-colors">
-                    Board Game Night Scorer</h3>
-                  <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">Companion iOS scorekeeper
-                    and round tracker built for physical board game nights.</p>
+                    GameVault</h3>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">A board game night scorer</p>
                 </div>
               </div>
               <div class="pt-space-md flex items-center justify-between border-t border-outline-variant/30"><a
                   class="font-code-sm text-code-sm text-primary font-semibold flex items-center gap-1 group-hover:translate-x-0.5 transition-transform"
-                  href="projects.html"><span>View Project</span><span
+                  href="gamevault.html"><span>View Project</span><span
                     class="material-symbols-outlined text-[16px]">arrow_forward</span></a><span
                   class="font-code-sm text-code-sm text-on-surface-variant font-mono">02</span></div>
             </div>
             <div
               class="flex flex-col justify-between p-space-lg rounded-xl bg-surface-container-low shadow-sm transition-all duration-200 hover:shadow-xl hover:-translate-y-1 group">
               <div class="flex flex-col gap-space-md">
-                <div
-                  class="relative w-full h-48 rounded-lg overflow-hidden bg-surface-container flex items-center justify-center">
-                  <div
-                    class="w-12 h-12 rounded-full bg-tertiary-fixed/40 flex items-center justify-center text-tertiary">
-                    <span class="material-symbols-outlined text-[24px]">local_cafe</span></div>
-                  <div
-                    class="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur font-code-sm text-code-sm text-on-surface">
-                    03 // MOBILE</div>
-                </div>
                 <div class="flex flex-col gap-space-xs">
                   <div class="flex items-center gap-2"><span
                       class="px-2 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-code-sm text-code-sm">Mobile
@@ -225,14 +203,6 @@
             <div
               class="flex flex-col justify-between p-space-lg rounded-xl bg-surface-container-low shadow-sm transition-all duration-200 hover:shadow-xl hover:-translate-y-1 group">
               <div class="flex flex-col gap-space-md">
-                <div
-                  class="relative w-full h-48 rounded-lg overflow-hidden bg-surface-container flex items-center justify-center">
-                  <div class="w-12 h-12 rounded-full bg-primary-fixed/40 flex items-center justify-center text-primary">
-                    <span class="material-symbols-outlined text-[24px]">palette</span></div>
-                  <div
-                    class="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur font-code-sm text-code-sm text-on-surface">
-                    04 // ART</div>
-                </div>
                 <div class="flex flex-col gap-space-xs">
                   <div class="flex items-center gap-2"><span
                       class="px-2 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-code-sm text-code-sm">Illustration</span>
